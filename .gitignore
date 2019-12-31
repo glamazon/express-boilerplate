@@ -1,0 +1,2 @@
+"node_modules" 
+"NODE_ENV=development"  # using  append content echo ".env" 
