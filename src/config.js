@@ -1,8 +1,5 @@
 module.exports = {
-  const { PORT } = require('./config')
-
-  app.listen(PORT, () => {
-    console.log(`Server listening at http://localhost:${PORT}`)
-  })
+  PORT: process.env.PORT || 8000,
   NODE_ENV: process.env.NODE_ENV || 'development',
-}
+  DB_URL: process.env.DB_URL,
+};
